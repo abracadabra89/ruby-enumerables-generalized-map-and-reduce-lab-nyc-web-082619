@@ -4,6 +4,10 @@ def map(array)
 end
 
 def map(array)
+  array.map { |x| }
+end 
+
+def map(array)
 array.map { |x| x*2 }
 end
 
