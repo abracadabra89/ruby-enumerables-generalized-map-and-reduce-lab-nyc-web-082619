@@ -11,4 +11,4 @@ def map(array)
   array.map { |x| x*x }
 end
 
-def reduce
+def reduce(source_array)
