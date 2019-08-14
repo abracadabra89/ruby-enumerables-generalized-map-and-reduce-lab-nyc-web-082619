@@ -1,6 +1,6 @@
 # Your Code Here
 def map(array)
-  array.map { |x| -x }
+  array.map { |x| -1 }
 end
 
 def map(array)
