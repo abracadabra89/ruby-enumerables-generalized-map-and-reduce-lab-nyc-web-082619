@@ -15,4 +15,4 @@ def reduce(source_array)
   source_array.reduce {|memo, x| memo + x}
 end
 
-def reduce()
+def reduce(source_array, starting_point)
