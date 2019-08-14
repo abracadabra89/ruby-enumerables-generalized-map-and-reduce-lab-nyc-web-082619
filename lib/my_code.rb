@@ -19,5 +19,6 @@ def reduce(source_array, starting_point)
   source_array.reduce {|starting_point, n| starting_point + n}
 end
 
-def reduce
+def reduce(source_array)
+  source_array.reduce
 
