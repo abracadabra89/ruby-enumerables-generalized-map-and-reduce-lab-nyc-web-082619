@@ -1,5 +1,5 @@
 # Your Code Here
-def map(array)
+def map_to_negativize(array)
   array.map { |x| -x }
 end
 
