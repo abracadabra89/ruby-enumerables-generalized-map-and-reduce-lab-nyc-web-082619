@@ -1,9 +1,8 @@
 # Your Code Here
-def map_to_negativize(array)
+def map(array)
   array.map { |x| -x }
 end
 
 def map(array)
-array.map { |x| x }
+array.map { |x| x*2 }
 end
-
