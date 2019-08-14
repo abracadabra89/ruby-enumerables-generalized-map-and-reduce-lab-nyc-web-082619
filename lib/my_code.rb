@@ -1,2 +1,3 @@
 # Your Code Here
-map
+def map(array)
+  
