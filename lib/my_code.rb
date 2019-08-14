@@ -20,5 +20,6 @@ def reduce(source_array, starting_point)
 end
 
 def reduce(source_array)
-  source_array.reduce
+  source_array.reduce {|memo, n| memo && n}
+end
 
